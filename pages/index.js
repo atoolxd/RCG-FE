@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+npm/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
@@ -9,7 +9,7 @@ function Home() {
     const [activeIndex, setActiveIndex] = useState(1);
 
     const handleOnClick = (index) => 
-        setActiveIndex(index); // remove the curly braces;
+        setActiveIndex(index);
 
     // Open modal
     const [modal, setModal] = useState(false);
