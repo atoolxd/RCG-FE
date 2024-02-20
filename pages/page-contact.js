@@ -24,7 +24,7 @@ function Contact() {
                                 </div>
                                 <div className="col-lg-4 mb-40">
                                     <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Rocketeers Consultation Group</h4>
-                                    <p className="text-body-text color-gray-600">765 Pennant Hills Rd, <br />Carlingford NSW 2118, Australia</p>
+                                    <p className="text-body-text color-gray-600">Sydney, Australia</p>
                                     <p className="text-body-text color-gray-600">(+61) 123123123</p>
                                     <p className="text-body-text color-gray-600">support@rocketeers.com.au</p>
                                 </div>
@@ -67,7 +67,23 @@ function Contact() {
                                 <div className="list-icons hover-up">
                                     <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
                                         <h4 className="text-heading-4">Office</h4>
-                                        <p className="text-body-text color-gray-1100 mt-15">765 Pennant Hills Rd,<br />Carlingford NSW 2118, Australia<br />Phone: (123) 456-7890<br />Email: support@rocketeers.com.au</p>
+                                        <p className="text-body-text color-gray-1100 mt-15">Sydney, Australia<br />Phone: (123) 456-7890<br />Email: support@rocketeers.com.au</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="list-icons hover-up">
+                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
+                                        <h4 className="text-heading-4">Office</h4>
+                                        <p className="text-body-text color-gray-1100 mt-15">Kathmandu, Bagmati, Nepal<br />Phone: (123) 456-7890<br />Email: support@rocketeers.com.au</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-md-12 col-sm-12">
+                                <div className="list-icons hover-up">
+                                    <div className="item-icon"><span className="icon-left"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></span>
+                                        <h4 className="text-heading-4">Office</h4>
+                                        <p className="text-body-text color-gray-1100 mt-15">Los Angeles, USA<br />Phone: (123) 456-7890<br />Email: support@rocketeers.com.au</p>
                                     </div>
                                 </div>
                             </div>

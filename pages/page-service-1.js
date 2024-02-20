@@ -48,7 +48,7 @@ function Service1() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                        <div className="block-1 shape-2"></div><img src="/assets/imgs/page/about/2/webdev.png" alt="" />
+                                        <div className="block-1 shape-2"></div><img src="/assets/imgs/page/about/2/hero1.png" alt="" />
                                     </div>
                                 </div>
                             </div>

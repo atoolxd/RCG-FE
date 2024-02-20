@@ -1,4 +1,4 @@
-npm/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
