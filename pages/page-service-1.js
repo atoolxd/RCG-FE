@@ -4,12 +4,13 @@
 import Link from "next/link";
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
+import Accordion from "../components/elements/Accordion";
 
 
-function Service1() {
-    const [activeService1, setActiveService1] = useState(1);
-    const handleOnClick = (Service1) => 
-        setActiveService(Service1);
+function Service() {
+    const [activeService, setActiveService] = useState(1);
+    const handleOnClick = (Service) => 
+        setActiveService(Service);
 
     return (
         <>
@@ -120,28 +121,28 @@ function Service1() {
                         <div className="text-center mt-90">
                             <ul className="nav" role="tablist">
                                 <li onClick={() => handleOnClick(1)}>
-                                    <Link href="/webdev" legacyBehavior>
-                                        <a className={activeService1 === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Web Development</a>
+                                    <Link href="/page-service-1#webdev" legacyBehavior>
+                                        <a className={activeService === 1 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Web Development</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(2)}>
-                                    <Link href="/appdev" legacyBehavior>
-                                        <a className={activeService1 === 2 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>App Development</a>
+                                    <Link href="/page-service-1#appdev" legacyBehavior>
+                                        <a className={activeService === 2 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>App Development</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(3)}>
-                                    <Link href="/digi" legacyBehavior>
-                                        <a className={activeService1 === 3 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Digital Marketing</a>
+                                    <Link href="/page-service-1#digi" legacyBehavior>
+                                        <a className={activeService === 3 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Digital Marketing</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(4)}>
-                                    <Link href="/AI" legacyBehavior>
-                                        <a className={activeService1 === 4 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Artificial Intelligence</a>
+                                    <Link href="/page-service-1#AI" legacyBehavior>
+                                        <a className={activeService === 4 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Artificial Intelligence</a>
                                     </Link>
                                 </li>
                                 <li onClick={() => handleOnClick(5)}>
-                                    <Link href="/consulting" legacyBehavior>
-                                        <a className={activeService1 === 5 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Consultation</a>
+                                    <Link href="/page-service-1#consulting" legacyBehavior>
+                                        <a className={activeService === 5 ? "btn btn-default btn-bd-green-hover btn-select active" : "btn btn-default btn-bd-green-hover btn-select"}>Consultation</a>
                                     </Link>
                                 </li>
                             </ul>
@@ -149,7 +150,7 @@ function Service1() {
                     </div>
                     <div className="container">
                         <div className="tab-content">
-                            <div className={activeService1 === 1 ? "tab-pane fade  active show" : "tab-pane fade "}>
+                            <div className={activeService === 1 ? "tab-pane fade  active show" : "tab-pane fade "}>
                                 <div className="bg-2 panel-box mt-50">
                                     <div className="row">
                                         <div className="col-lg-6 col-md-12">
@@ -175,7 +176,7 @@ function Service1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={activeService1 === 2 ? "tab-pane fade  active show" : "tab-pane fade "}>
+                            <div className={activeService === 2 ? "tab-pane fade  active show" : "tab-pane fade "}>
                                 <div className="bg-2 panel-box mt-50">
                                     <div className="row">
                                         <div className="col-lg-6 col-md-12">
@@ -201,7 +202,7 @@ function Service1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={activeService1 === 3 ? "tab-pane fade  active show" : "tab-pane fade "}>
+                            <div className={activeService === 3 ? "tab-pane fade  active show" : "tab-pane fade "}>
                                 <div className="bg-3 panel-box mt-50">
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-12">
@@ -227,7 +228,7 @@ function Service1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={activeService1 === 4 ? "tab-pane fade  active show" : "tab-pane fade "}>
+                            <div className={activeService === 4 ? "tab-pane fade  active show" : "tab-pane fade "}>
                                 <div className="bg-4 panel-box mt-50">
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-12">
@@ -253,7 +254,7 @@ function Service1() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={activeService1 === 5 ? "tab-pane fade  active show" : "tab-pane fade "}>
+                            <div className={activeService === 5 ? "tab-pane fade  active show" : "tab-pane fade "}>
                                 <div className="bg-5 panel-box mt-50">
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-12">
@@ -312,4 +313,4 @@ function Service1() {
     )
 }
 
-export default Service1;
+export default Service;

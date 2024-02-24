@@ -5,21 +5,7 @@ import Layout from "../components/layout/Layout";
 import OfferSlider from "../components/slider/Offer";
 import TestimonialSlider from "../components/slider/Testimonial";
 
-function Home() {
-    const [activeIndex, setActiveIndex] = useState(1);
-
-    const handleOnClick = (index) => 
-        setActiveIndex(index);
-
-    // Open modal
-    const [modal, setModal] = useState(false);
-    const [videoLoading, setVideoLoading] = useState(true);
-    const openModal = () => {
-    setModal(!modal);
-    };
-    const spinner = () => {
-    setVideoLoading(!videoLoading);
-    };
+function Offer() {
 
     return (
         <>
@@ -30,15 +16,14 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-7">
                                     <h1 className="text-display-2">
-                                    Elevating Digital Excellence: Unleashing innovation with
+                                    GET A FREE WEBSITE FROM 
                                         <span className="color-green-900"> RCG </span>
                                     </h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                    Innovate. Elevate. Excel: Transforming Visions into Digital Triumphs at RCG
+                                    Get a free WordPress website from us. Apply Today to be the lucky one to get this deal.
                                     </p>
                                     <div className="mt-40">
-                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contact Us!</a></Link>
-                                        <Link href="/page-service-1" legacyBehavior><a className="btn btn-link icon-arrow-right color-gray-900 text-heading-6">Services</a></Link>
+                                        <Link href="https://opnform.com/forms/free-website-build-interest-form-xnutlc" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Take Me There!!</a></Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
@@ -128,47 +113,6 @@ function Home() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box">
-                    <div className="container mt-120">
-                        <div className="bg-2 bdrd-58 pattern-white pb-60">
-                            <div className="row">
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                                <div className="col-lg-8 col-sm-10 col-12 text-center mt-70">
-                                    <h2 className="text-heading-1 color-gray-900">
-                                        What We Offer
-                                    </h2>
-                                    <p className="text-body-lead-large color-gray-600 mt-20">
-                                        What makes us different from others? We give
-                                        holistic solutions with strategy, design
-                                        and technology.
-                                    </p>
-                                </div>
-                                <div className="col-lg-2 col-sm-1 col-12" />
-                            </div>
-                            <div className="container mt-70">
-                                <OfferSlider/>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section className="section-box">
-                    <div className="container mt-110">
-                        <div className="row">
-                            <div className="col-lg-9 col-sm-8">
-                                <h3 className="text-heading-1 mb-10">
-                                    Our Happy Customers
-                                </h3>
-                                <p className="text-body-lead-large color-gray-600">
-                                    Know about our clients, we are a woldwide
-                                    corporate brand
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="container mt-80">
-                        <TestimonialSlider />
-                    </div>
-                </section>
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
@@ -203,37 +147,10 @@ function Home() {
                         </div>
                     </div>
                 </section>
-
-                {modal ? (
-                    <section className="modal__bg" onClick={openModal}>
-                        <div className="modal__align">
-                        <div className="modal__content" modal={modal}>
-                            <div className="modal__video-align">
-                            {videoLoading ? (
-                                <div className="modal__spinner">
-                                    <i className="fi-rr-refresh"></i>
-                                </div>
-                            ) : null}
-                            <iframe
-                                className="modal__video-style"
-                                onLoad={spinner}
-                                loading="lazy"
-                                width="800"
-                                height="500"
-                                src="https://www.youtube.com/embed/VEe_yIbW64w"
-                                title="真夜中のドア/Stay With Me"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen>
-                            </iframe>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
-                    ) : null}
             </Layout>
 
         </>
     )
 }
 
-export default Home;
+export default Offer;
