@@ -2,7 +2,7 @@
 import Link from "next/link";
 import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
-import TestimonialSlider from "../components/slider/Testimonial";
+import ProjectSlider from "../components/slider/Projects";
 
 
 function About2() {
@@ -105,25 +105,21 @@ function About2() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box mt-100 bg-green-900 pt-90 pb-90">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-6 col-sm-12 col-12 block-gallery-1">
-                                <div className="row">
-                                    <div className="col-lg-6"><img className="img-responsive mb-10" src="assets/imgs/page/about/2/img-2.png" alt="Agon" /><img className="img-responsive" src="assets/imgs/page/about/2/img-3.png" alt="Agon" /></div>
-                                    <div className="col-lg-6"><img className="img-responsive" src="assets/imgs/page/about/2/img-1.png" alt="Agon" /></div>
+                <section className="section-box">
+                        <div className="container mt-70">
+                            <div className="row">
+                                <div className="col-lg-1 col-sm-1 col-12" />
+                                <div className="col-lg-10 col-sm-10 col-12 text-center">
+                                    <h2 className="text-heading-1 color-gray-900 mb-10">Our Projects</h2>
+                                    <p className="text-heading-6 color-gray-600 mt-20">From year to year we strive to invent the most innovative technology<br className="d-lg-block d-none" />that is used by both small enterprises and space enterprises.</p>
                                 </div>
-                            </div>
-                            <div className="col-lg-6 col-sm-12 col-12 block-pl">
-                                <h2 className="text-heading-1 color-white mb-30 mt-20">Our game-changing approach to working together</h2>
-                                <p className="text-inter-lg">Check out stories from companies like PickRightSports and Fanbucket to get inspired by how much you can gain.</p>
-                                {/* <div className="mt-30">
-                                    <Link href="/page-service-2" legacyBehavior><a className="btn btn-black text-body-text">Keep Reading</a></Link>
-                                </div> */}
+                                <div className="col-lg-1 col-sm-1 col-12" />
                             </div>
                         </div>
-                    </div>
-                </section>
+                        <div className="container mt-70">
+                           <ProjectSlider/>
+                        </div>
+                    </section>
                 <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">

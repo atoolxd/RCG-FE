@@ -28,28 +28,23 @@ const Footer = () => {
                             
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
-                            <h4 className="text-heading-5">About Us</h4>
-                            <ul className="menu-footer mt-20">
-                                <li>
-                                    <Link href="/page-about-3" legacyBehavior>
-                                        <a>Mission and Vision</a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/page-career" legacyBehavior>
-                                        <a>Careers</a>
-                                    </Link>
-                                </li>
-                            </ul>
-                        </div>
-                        <div className="col-lg-3 width-20 mb-30">
                             <h4 className="text-heading-5">Discover</h4>
                             <ul className="menu-footer mt-20">
                                 <li>
                                     <Link href="/#" legacyBehavior>
-                                        <a>Cookie Policy</a>
+                                        <a>Services</a>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="/#" legacyBehavior>
+                                        <a>About Us</a>
+                                    </Link>
+                                </li>
+                                {/* <li>
+                                    <Link href="/#" legacyBehavior>
+                                        <a>Careers</a>
+                                    </Link>
+                                </li> */}
                             </ul>
                         </div>
                         <div className="col-lg-3 width-20 mb-30">
@@ -70,6 +65,11 @@ const Footer = () => {
                                         <a>Request an offer</a>
                                     </Link>
                                 </li>
+                                <li>
+                                    <Link href="/#" legacyBehavior>
+                                        <a>Support</a>
+                                    </Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -80,9 +80,9 @@ const Footer = () => {
                                 <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Privacy policy</a>
                                 </Link>
-                                <Link href="/page-terms" legacyBehavior>
+                                {/* <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Cookies</a>
-                                </Link>
+                                </Link> */}
                                 <Link href="/page-terms" legacyBehavior>
                                     <a className="text-body-text color-gray-400 ml-50">Terms of service</a>
                                 </Link>

@@ -30,11 +30,11 @@ function Home() {
                             <div className="row">
                                 <div className="col-lg-7">
                                     <h1 className="text-display-2">
-                                    Elevating Digital Excellence: Unleashing innovation with
+                                    Empowering Your Digital Journey
                                         <span className="color-green-900"> RCG </span>
                                     </h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                    Innovate. Elevate. Excel: Transforming Visions into Digital Triumphs at RCG
+                                    Welcome to RCG, where innovation meets excellence. We craft digital solutions that transform ideas into impactful realities. Elevate your online presence with our suite of services including web and app development, SEO, digital marketing, and expert consultation.
                                     </p>
                                     <div className="mt-40">
                                         <Link href="/page-contact" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contact Us!</a></Link>
@@ -192,9 +192,7 @@ function Home() {
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
-                                            <div className="block-chart shape-1">
-                                                <img src="/assets/imgs/template/chart.png" alt="" />
-                                            </div>
+                                           
                                             <img className="img-responsive img-newsletter" src="assets/imgs/template/img-newsletter.png" alt="" />
                                         </div>
                                     </div>
