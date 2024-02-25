@@ -20,12 +20,7 @@ const ProjectSlider = () => {
             title: "Liguid Wave",
             author: "Atul"
         },
-        {
-            img: "10.jpg",
-            avatar: "2.jpg",
-            title: "Liguid Wave",
-            author: "Atul"
-        },
+        
     ];
 
 
