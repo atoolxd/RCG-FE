@@ -40,10 +40,6 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             
                                         </li>
                                         <li>
-                                            <Link href="/page-about-3" legacyBehavior><a>About Us</a></Link>
-                                            
-                                        </li>
-                                        <li>
                                             <Link href="/page-contact">Contact</Link>
                                             
                                         </li>
@@ -55,9 +51,8 @@ const Header = ({ handleOpen, headerStyle }) => {
                             </div>
                         </div>
                         <div className="header-right">
-                            <div className="block-signin">
-                                <Link href="https://opnform.com/forms/free-website-build-interest-form-xnutlc" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Free Website Offer!!</a></Link>
-                                
+                        <div className="block-signin">
+                                <Link href="/page-offer" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Offer!!!</a></Link>
                             </div>
                             </div>
                         </div>
@@ -65,6 +60,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                     <div className="burger-icon burger-icon-white" onClick={handleOpen}>
                                     <span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" />
                                 </div>
+                            
              
             </header>
 
