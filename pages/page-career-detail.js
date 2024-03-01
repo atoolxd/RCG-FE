@@ -8,10 +8,10 @@ function CareerDetails() {
     const [modal, setModal] = useState(false);
     const [videoLoading, setVideoLoading] = useState(true);
     const openModal = () => {
-    setModal(!modal);
+        setModal(!modal);
     };
     const spinner = () => {
-    setVideoLoading(!videoLoading);
+        setVideoLoading(!videoLoading);
     };
     return (
         <>
@@ -114,7 +114,7 @@ function CareerDetails() {
                                             <Link href="/page-terms" legacyBehavior><a>Term and Conditions</a></Link>
 
                                             <div className="box-form-newsletter mt-30">
-                                                <form className="form-newsletter"><input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
+                                                <form className="form-newsletter"><input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" /></form>
                                             </div>
                                         </div>
                                         <div className="col-lg-7 col-md-5 mt-30 mt-lg-0 mt-md-30 mt-sm-30 position-relative text-end">
@@ -130,30 +130,30 @@ function CareerDetails() {
                 {modal ? (
                     <section className="modal__bg" onClick={openModal}>
                         <div className="modal__align">
-                        <div className="modal__content" modal={modal}>
-                            <div className="modal__video-align">
-                            {videoLoading ? (
-                                <div className="modal__spinner">
-                                    <i className="fi-rr-refresh"></i>
+                            <div className="modal__content" modal={modal}>
+                                <div className="modal__video-align">
+                                    {videoLoading ? (
+                                        <div className="modal__spinner">
+                                            <i className="fi-rr-refresh"></i>
+                                        </div>
+                                    ) : null}
+                                    <iframe
+                                        className="modal__video-style"
+                                        onLoad={spinner}
+                                        loading="lazy"
+                                        width="800"
+                                        height="500"
+                                        src="https://www.youtube.com/embed/oRI37cOPBQQ"
+                                        title="YouTube video player"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen
+                                    ></iframe>
                                 </div>
-                            ) : null}
-                            <iframe
-                                className="modal__video-style"
-                                onLoad={spinner}
-                                loading="lazy"
-                                width="800"
-                                height="500"
-                                src="https://www.youtube.com/embed/oRI37cOPBQQ"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen
-                            ></iframe>
                             </div>
                         </div>
-                        </div>
                     </section>
-                    ) : null}
+                ) : null}
 
             </Layout>
 

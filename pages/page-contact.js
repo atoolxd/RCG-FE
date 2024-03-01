@@ -23,19 +23,19 @@ function Contact() {
                                 <div className="col-lg-8">
                                     <div className="row">
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Enter your name" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Enter your name" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Company (optional)" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Company (optional)" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Your mail" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Your mail" /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control"  placeholder="Phone number" /></div>
+                                            <div className="form-group"><input className="form-control" placeholder="Phone number" /></div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself"  /></div>
+                                            <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself" /></div>
                                         </div>
                                         <div className="col-lg-12 mt-15"><button className="btn btn-black icon-arrow-right-white mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
                                     </div>

@@ -52,7 +52,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                         </div>
                         <div className="header-right">
                         <div className="block-signin">
-                                <Link href="/page-offer" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right">Offer!!!</a></Link>
+                                <Link href="/page-offer" legacyBehavior><a className="btn btn-default hover-up icon-arrow-right"> Free Website</a></Link>
                             </div>
                             </div>
                         </div>

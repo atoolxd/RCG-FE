@@ -4,7 +4,7 @@ import { useState } from "react";
 import PerfectScrollbar from 'react-perfect-scrollbar';
 import 'react-perfect-scrollbar/dist/css/styles.css';
 
-const RightSidebar = ({ openClass }) => {
+const RightSidebar = ({ openClass, setOpen }) => {
     const [isActive, setIsActive] = useState({
         status: false,
         key: "",
@@ -28,7 +28,11 @@ const RightSidebar = ({ openClass }) => {
             });
         }
     };
-    
+
+    const closeSidebar = () => {
+        setOpen(false);
+    };
+      
     return (
         <>
             <div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${!openClass}`}>
@@ -43,14 +47,14 @@ const RightSidebar = ({ openClass }) => {
                             <div className="mobile-menu-wrap mobile-header-border">
                                 <nav>
                                     <ul className="mobile-menu font-heading">
-                                        <li className={isActive.key == 1 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(1)} className="menu-expand">
+                                        <li className={isActive.key == 1}>
+                                            <span onClick={() => handleToggle(1)}>
                                                 <i className="fi-rr-angle-small-down"></i></span>
                                             <Link href="/" legacyBehavior><a className="active">Home</a></Link>
                                             
                                         </li>
-                                        <li className={isActive.key == 2 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(2)} className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                        <li className={isActive.key == 2}>
+                                            <span onClick={() => handleToggle(2)}><i className="fi-rr-angle-small-down"></i></span>
 
                                             <Link href="/page-about-1" legacyBehavior><a>About</a></Link>
                                             
@@ -61,8 +65,8 @@ const RightSidebar = ({ openClass }) => {
                                             <Link href="/page-service-1" legacyBehavior><a>Company</a></Link>
                                             
                                         </li> */}
-                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(4)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                        <li className={isActive.key == 4}>
+                                            <span onClick={() => handleToggle(4)}><i className="fi-rr-angle-small-down"></i></span>
 
                                             <Link href="/#" legacyBehavior><a>Pages</a></Link>
                                             <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
@@ -71,8 +75,8 @@ const RightSidebar = ({ openClass }) => {
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li className={isActive.key == 5 ? "has-children active" : "has-children"}>
-                                            <span onClick={() => handleToggle(5)}  className="menu-expand"><i className="fi-rr-angle-small-down"></i></span>
+                                        <li className={isActive.key == 5}>
+                                            <span onClick={() => handleToggle(5)}><i className="fi-rr-angle-small-down"></i></span>
 
                                             {/* <Link href="/blog-1" legacyBehavior><a>Blog</a></Link>
                                             <ul className={isActive.key == 5 ? "sub-menu d-block" : "sub-menu d-none"}>
@@ -85,9 +89,9 @@ const RightSidebar = ({ openClass }) => {
                                 </nav>
                             </div>
                             <div className="site-copyright color-gray-400">
-                                Copyright 2022 © RCG - RCG.<br />Designed
+                                Copyright 2024 © RCG - RCG.<br />Designed
                                 by RCG 
-                                <Link href="" legacyBehavior><a>&nbsp; RCG</a></Link>
+                                <a>&nbsp; RCG</a>
                             </div>
                         </div>
                     </div>
@@ -96,5 +100,7 @@ const RightSidebar = ({ openClass }) => {
             </>
     );
 };
+<RightSidebar openClass="mobile-header-active mobile-header-wrapper-style perfect-scrollbar" setOpen={setIsSidebarOpen} />
+
 
 export default RightSidebar;

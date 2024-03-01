@@ -9,8 +9,8 @@ function Test() {
   return (
     <>
       <Layout>
-        <ThumbSlider/>
-        <PriceTable/>
+        <ThumbSlider />
+        <PriceTable />
       </Layout>
 
     </>

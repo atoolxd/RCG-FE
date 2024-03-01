@@ -32,7 +32,7 @@ const OfferSlider = () => {
                 <div className="swiper-container swiper-group-4">
                     <Swiper
                         slidesPerView={1}
-                        spaceBetween={30}
+                        spaceBetween={40}
                         loop={true}
                         autoplay={{
                             delay: 2500,

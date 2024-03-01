@@ -10,17 +10,17 @@ function Offer() {
     return (
         <>
             <Layout>
-               <section className="section-box">
+                <section className="section-box">
                     <div className="banner-hero banner-1">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7">
                                     <h1 className="text-display-2">
-                                    GET A FREE WEBSITE FROM 
+                                        GET A FREE WEBSITE FROM
                                         <span className="color-green-900"> RCG </span>
                                     </h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                    Get a free WordPress website from us. Apply Today to be the lucky one to get this deal.
+                                        Get a free WordPress website from us. Apply Today to be the lucky one to get this deal.
                                     </p>
                                     <div className="mt-40">
                                         <Link href="https://opnform.com/forms/free-website-build-interest-form-xnutlc" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Take Me There!!</a></Link>
@@ -28,7 +28,7 @@ function Offer() {
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
-                                       
+
                                         <img className="img-responsive shape-2" alt="" src="assets/imgs/page/homepage1/webdev1.webp" />
                                     </div>
                                 </div>
@@ -38,8 +38,8 @@ function Offer() {
                 </section>
                 <div className="section-box overflow-visible mt-70">
                 </div>
-                
-               
+
+
                 <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
@@ -58,7 +58,7 @@ function Offer() {
                                             <Link href="/page-terms" legacyBehavior><a>Term and Conditions</a></Link>
                                             <div className="box-form-newsletter mt-30">
                                                 <form className="form-newsletter">
-                                                    <input className="input-newsletter"  placeholder="Enter you mail .." /><button className="btn btn-send" />
+                                                    <input className="input-newsletter" placeholder="Enter you mail .." /><button className="btn btn-send" />
                                                 </form>
                                             </div>
                                         </div>
