@@ -17,10 +17,11 @@ const Footer = () => {
                                 </Link>
                             </div>
                         </div>
+                        
                     </div>
+                    <Image src="/assets/imgs/template/rcg.svg" alt="RCG" width={142} height={42}/>
                     <div className="row">
                         <div className="col-lg-3 width-20 mb-30">
-                        <Image src="/assets/imgs/template/rcg.svg" alt="RCG" width={162} height={42}/>
                             <h4 className="text-heading-5">Contact</h4>
                             <div className="mt-20 text-body-text color-gray-600 mb-20">Sydney, Australia</div>
                             <div className="mt-20 text-body-text color-gray-600"></div>

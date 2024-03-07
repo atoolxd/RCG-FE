@@ -33,7 +33,7 @@ function About2() {
                                                     <p className="text-body-text color-gray-500">Projects done</p>
                                                 </div>
                                                 <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-officer.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">28</span></span></h4>
+                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">3</span></span></h4>
                                                     <p className="text-body-text color-gray-500">Offices</p>
                                                 </div>
                                                 <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-constant.svg" alt="Agon" /></span>

@@ -38,14 +38,14 @@ function Home() {
                                         At RCG, we're here with a smile, ready to support your digital needs with our expert web and app development services. We value collaboration and aim to make technology work for you in the most enjoyable way. Let's build something great together.
                                     </p>
                                     <div className="mt-40">
-                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black icon-arrow-right-white">Contact Us!</a></Link>
+                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Contact Us!</a></Link>
                                         <Link href="/page-service-1" legacyBehavior><a className="btn btn-link icon-arrow-right color-gray-900 text-heading-6">Services</a></Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 d-none d-lg-block">
                                     <div className="banner-imgs">
 
-                                        <img className="img-responsive shape-2" alt="" src="assets/imgs/page/homepage1/webdev1.webp" />
+                                        <img className="img-responsive shape-2" alt="" src="/assets/imgs/page/about/2/hero1.png" />
                                     </div>
                                 </div>
                             </div>
@@ -80,7 +80,7 @@ function Home() {
                                         Business Strategy Redefined:
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        Tailoring solutions that surpass mere problem-solving, Rocketeers enhance your business with insightful strategies and bespoke methods, promoting efficiency, scalability, and consistent growth in a dynamic commercial environment.
+                                        Tailoring solutions that surpass mere problem-solving, Rocketeers enhances your business with insightful strategies and bespoke methods, promoting efficiency, scalability, and consistent growth in a dynamic environment.
                                     </p>
 
                                 </div>
@@ -91,11 +91,10 @@ function Home() {
                                         <img src="/assets/imgs/page/homepage1/local.svg" alt="" />
                                     </div>
                                     <h3 className="text-heading-3 mt-20">
-                                        Agile Workflow:
+                                        Agile Workflow Redefined:
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        By prioritizing adaptability and excellence, Rocketeers' approach to Agile Workflow ensures that projects remain flexible, collaborative, and swift, mastering the complexities of today's rapid digital shifts.
-
+                                    By prioritizing adaptability and excellence, Rocketeers' approach to Agile Workflow ensures that projects remain flexible, collaborative, swift, and adept at mastering the complexities of today's rapid digital shifts.
                                     </p>
 
                                 </div>
@@ -109,7 +108,7 @@ function Home() {
                                         Experienced Team:
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                        The core of Rocketeers is a seasoned team rich in knowledge, creativity, and dedication. They excel in turning obstacles into opportunities, bringing digital aspirations to life with a professional touch.
+                                    Rocketeers' core comprises a seasoned team, exceptionally knowledgeable, creative, and dedicated. They adeptly convert challenges into opportunities, bringing digital aspirations to life with a professional touch.
                                     </p>
 
                                 </div>
@@ -127,7 +126,7 @@ function Home() {
                                         <h4 className="text-heading-6">Learn More!</h4>
                                         <p className="text-body-text color-gray-600 mt-15">We have the best team to work on your project.</p>
                                         <div className="mt-40">
-                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn More</a></Link>
+                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Learn More</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +137,7 @@ function Home() {
                                         <h4 className="text-heading-6">Contact US!</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Contact us today to get started!!</p>
                                         <div className="mt-40">
-                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">CONTACT US!</a></Link>
+                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">CONTACT US!</a></Link>
                                         </div>
                                     </div>
                                 </div>

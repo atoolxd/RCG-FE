@@ -37,7 +37,7 @@ function Contact() {
                                         <div className="col-lg-12">
                                             <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself" /></div>
                                         </div>
-                                        <div className="col-lg-12 mt-15"><button className="btn btn-black icon-arrow-right-white mr-40 mb-20" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
+                                        <div className="col-lg-12 mt-15"><button className="btn btn-black shape-square icon-arrow-right-white" type="submit">Send Message</button><br className="d-lg-none d-block"/><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -116,19 +116,19 @@ function Contact() {
                     <div className="container">
                         <div className="bd-bottom pb-70">
                             <ul className="list-5-col">
-                                <li><span className="text-display-3 color-green-900">+<span className="count">6</span>k</span>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">6</span></span>
                                     <p className="text-body-text color-gray-500 pl-40">Years in<br />Business</p>
                                 </li>
-                                <li><span className="text-display-3 color-green-900">+<span className="count">12</span>k</span>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">12</span></span>
                                     <p className="text-body-text color-gray-500 pl-40">Projects<br />Done</p>
                                 </li>
-                                <li><span className="text-display-3 color-green-900">+<span className="count">14</span>k</span>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">4</span></span>
                                     <p className="text-body-text color-gray-500 pl-40">Countries<br />/ Offices</p>
                                 </li>
-                                <li><span className="text-display-3 color-green-900">+<span className="count">16</span>k</span>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">12</span></span>
                                     <p className="text-body-text color-gray-500 pl-40">Constant<br />Clients</p>
                                 </li>
-                                <li><span className="text-display-3 color-green-900">+<span className="count">27</span>k</span>
+                                <li><span className="text-display-3 color-green-900">+<span className="count">27</span></span>
                                     <p className="text-body-text color-gray-500 pl-40">Paid Customers</p>
                                 </li>
                             </ul>
