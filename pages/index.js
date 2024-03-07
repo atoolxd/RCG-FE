@@ -32,10 +32,10 @@ function Home() {
                                     <h1 className="text-display-2">
 
                                         <span className="color-green-900"> Rocketeers </span>
-                                        <br></br>Your partner in web, app development, and consulting. Let's build your digital future.
+                                        <br></br>Your partner in web, app development, and consulting. Lets build your digital future.
                                     </h1>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                        At RCG, we're here with a smile, ready to support your digital needs with our expert web and app development services. We value collaboration and aim to make technology work for you in the most enjoyable way. Let's build something great together.
+                                        At RCG, were here with a smile, ready to support your digital needs with our expert web and app development services. We value collaboration and aim to make technology work for you in the most enjoyable way. Lets build something great together.
                                     </p>
                                     <div className="mt-40">
                                         <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Contact Us!</a></Link>
@@ -94,7 +94,7 @@ function Home() {
                                         Agile Workflow Redefined:
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                    By prioritizing adaptability and excellence, Rocketeers' approach to Agile Workflow ensures that projects remain flexible, collaborative, swift, and adept at mastering the complexities of today's rapid digital shifts.
+                                    By prioritizing adaptability and excellence, Rocketeers approach to Agile Workflow ensures that projects remain flexible, collaborative, swift, and adept at mastering the complexities of todays rapid digital shifts.
                                     </p>
 
                                 </div>
@@ -108,7 +108,7 @@ function Home() {
                                         Experienced Team:
                                     </h3>
                                     <p className="text-body-excerpt mt-20">
-                                    Rocketeers' core comprises a seasoned team, exceptionally knowledgeable, creative, and dedicated. They adeptly convert challenges into opportunities, bringing digital aspirations to life with a professional touch.
+                                    Rocketeers core comprises a seasoned team, exceptionally knowledgeable, creative, and dedicated. They adeptly convert challenges into opportunities, bringing digital aspirations to life with a professional touch.
                                     </p>
 
                                 </div>
