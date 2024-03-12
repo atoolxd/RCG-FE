@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from "../components/layout/Layout";
 
-
 function Contact() {
     return (
         <>
