@@ -1,7 +1,65 @@
-/* eslint-disable @next/next/no-img-element */
-import Layout from "../components/layout/Layout";
+// Import React and useState
+import React, { useState } from 'react';
 
+// Import Layout component
+import Layout from '../components/layout/Layout';
+
+// Define the Contact component
 function Contact() {
+  // Initialize state for form data
+  const [formData, setFormData] = useState({
+    name: '',
+    company: '',
+    email: '',
+    phone: '',
+    message: '',
+  });
+
+  // Handle form field changes
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
+  // Handle form submission
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+      // Fetch to the serverless function (API route) for handling email
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      // Parse the response
+      const data = await response.json();
+
+      // Check if the request was successful
+      if (response.ok) {
+        console.log('Email sent successfully');
+        // Optionally, reset the form after successful submission
+        setFormData({
+          name: '',
+          company: '',
+          email: '',
+          phone: '',
+          message: '',
+        });
+      } else {
+        console.error('Error sending email:', data.error);
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
+  };
+  
     return (
         <>
             <Layout>
@@ -21,22 +79,24 @@ function Contact() {
                                 </div>
                                 <div className="col-lg-8">
                                     <div className="row">
+                                        <form onSubmit={handleSubmit}>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" placeholder="Enter your name" /></div>
+                                            <div className="form-group"><input className="form-control" name="name" placeholder="Enter your name" value={formData.name} onChange={handleChange} /></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" placeholder="Company (optional)" /></div>
+                                            <div className="form-group"><input className="form-control" name="company" placeholder="Company (optional)" value={formData.company} onChange={handleChange}/></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" placeholder="Your mail" /></div>
+                                            <div className="form-group"><input className="form-control" name="email" placeholder="Your mail" value={formData.email} onChange={handleChange}/></div>
                                         </div>
                                         <div className="col-lg-6">
-                                            <div className="form-group"><input className="form-control" placeholder="Phone number" /></div>
+                                            <div className="form-group"><input className="form-control" name="phone" placeholder="Phone number" value={formData.phone} onChange={handleChange}/></div>
                                         </div>
                                         <div className="col-lg-12">
-                                            <div className="form-group"><textarea className="form-control" placeholder="Tell us about yourself" /></div>
+                                            <div className="form-group"><textarea className="form-control" name="message" placeholder="Tell us about yourself" value={formData.message} onChange={handleChange}/></div>
                                         </div>
                                         <div className="col-lg-12 mt-15"><button className="btn btn-black shape-square icon-arrow-right-white" type="submit">Send Message</button><br className="d-lg-none d-block"/><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span></div>
+                                        </form>
                                     </div>
                                 </div>
                             </div>
