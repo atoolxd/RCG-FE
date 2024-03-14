@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 10);
+    }, 2000);
 
     if (typeof window !== "undefined") {
       window.WOW = require("wowjs");
