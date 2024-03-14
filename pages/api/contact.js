@@ -1,6 +1,6 @@
 // pages/api/contact.js
 import nodemailer from 'nodemailer';
-import emailConfig from './emailConfig'; // Update the path
+import emailConfig from '/pages/api/emailConfig';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     // Compose email options
     const mailOptions = {
       from: email,
-      to: 'kharel.atul2@gmail.com', // Replace with the recipient's email address
+      to: 'support@rocketeers.com.au', // Replace with your email address
       subject: 'New Contact Form Submission',
       text: `
         Name: ${name}
@@ -27,13 +27,13 @@ export default async function handler(req, res) {
       // Send the email
       const info = await transporter.sendMail(mailOptions);
       console.log('Email sent:', info.response);
-
+    
       res.status(200).json({ success: true });
     } catch (error) {
       console.error('Error sending email:', error);
-      res.status(500).json({ success: false, error: 'Error sending email' });
+    
+      // Display a user-friendly error message to the user
+      res.status(500).json({ success: false, error: 'An error occurred while sending the email. Please try again later.' });
     }
-  } else {
-    res.status(405).end(); // Method Not Allowed
   }
 }

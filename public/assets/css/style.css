@@ -156,6 +156,13 @@ section {
   display: block;
 }
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 body {
   line-height: 1;
 }
