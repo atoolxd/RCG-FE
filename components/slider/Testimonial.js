@@ -57,6 +57,11 @@ const TestimonialSlider = () => {
                             nextEl: ".swiper-button-next-4"
                         }}
                         className="swiper-wrapper pb-70 pt-5"
+                        breakpoints={{
+                            640: {
+                              slidesPerView: 1,
+                            },
+                          }}
                     >
                         {data.map((item, i) => (
                             <SwiperSlide  key="{item}">

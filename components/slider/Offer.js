@@ -15,7 +15,7 @@ const OfferSlider = () => {
         },
         {
             img: "consulting.svg",
-            title: "Strategic Consulting",
+            title: "Strategic Advisory",
             text: "Consulting with us today, results your dream project to come to life."
         },
         {
@@ -43,9 +43,14 @@ const OfferSlider = () => {
                             nextEl: ".swiper-button-next-3"
                         }}
                         className="swiper-wrapper pb-70 pt-5"
+                        breakpoints={{
+                            640: {
+                              slidesPerView: 1,
+                            },
+                          }}
                     >
                         {data.map((item, i) => (
-                            <SwiperSlide key="{item}">
+                            <SwiperSlide key={i}>
                                 <div className="swiper-slide">
                                     <div className="card-grid-style-2 hover-up">
                                         <div className="grid-2-img">

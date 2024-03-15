@@ -4,6 +4,8 @@ import "../public/assets/css/swiper-custom.css";
 import React, { useEffect, useState } from "react";
 import Preloader from '../components/elements/Preloader';
 import { jsx as _jsx } from 'react/jsx-runtime';
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
@@ -25,8 +27,9 @@ function MyApp({ Component, pageProps }) {
       ) : (
         <Preloader />
       )}
+      </>
 
-    </>
+    
   )
 }
 

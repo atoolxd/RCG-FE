@@ -126,7 +126,7 @@ function Home() {
                                         <h4 className="text-heading-6">Learn More!</h4>
                                         <p className="text-body-text color-gray-600 mt-15">We have the best team to work on your project.</p>
                                         <div className="mt-40">
-                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Learn More</a></Link>
+                                            <Link href="/page-about-2" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Learn More</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -137,7 +137,7 @@ function Home() {
                                         <h4 className="text-heading-6">Contact US!</h4>
                                         <p className="text-body-text color-gray-600 mt-15">Contact us today to get started!!</p>
                                         <div className="mt-40">
-                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">CONTACT US!</a></Link>
+                                            <Link href="/contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">CONTACT US!</a></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -187,7 +187,7 @@ function Home() {
                         <TestimonialSlider />
                     </div>
                 </section>
-                <section className="section-box overflow-visible mb-100">
+                {/* <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-10 mx-auto">
@@ -218,7 +218,7 @@ function Home() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
 
                 {/* YOUTUBE VIDEO MODAL */}

@@ -40,7 +40,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             
                                         </li>
                                         <li>
-                                            <Link href="/page-contact">Contact</Link>
+                                            <Link href="/contact">Contact</Link>
                                             
                                         </li>
                                         {/* <li>

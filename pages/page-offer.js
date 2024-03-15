@@ -40,7 +40,7 @@ function Offer() {
                 </div>
 
 
-                <section className="section-box overflow-visible mb-100">
+                {/* <section className="section-box overflow-visible mb-100">
                     <div className="container mt-100">
                         <div className="row">
                             <div className="col-lg-10 mx-auto">
@@ -73,7 +73,7 @@ function Offer() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
             </Layout>
 
         </>
