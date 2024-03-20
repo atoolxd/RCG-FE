@@ -15,12 +15,12 @@ function About2() {
                             <div className="row">
                                 <div className="col-lg-6 box-banner-left"><span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span>
                                     <h1 className="text-display-3 mt-30">Get Your Dream Business Online Today</h1>
-                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Whether you are an established business or a startup, ensuring you have a well thought out development strategy, digital marketing plan and the resources
-                                        required in place, is vital. We do this through collaboration between our strategists, designers and technologists.
-                                        <br className="d-lg-block d-none" />For years, RCG partnered with businesses across every major industry to make amazing products and connect the dots between people, products, and business opportunities.
-                                        Now, in an increasingly digital world.<br className="d-lg-block d-none" /></p>
+                                    <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Whether you are an established business or a startup, ensuring you have a well thought out development strategy, digital marketing plan and the resources 
+                                    required in place, is vital. We do this through collaboration between our strategists, designers and technologists.
+                                    <br className="d-lg-block d-none" />For years, Rocketeers partnered with businesses across every major industry to make amazing products and connect the dots between people, products, and business opportunities. 
+                                    Now, in an increasingly digital world.<br className="d-lg-block d-none" /></p>
                                     <div className="mt-40">
-                                        <Link href="/page-contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Contact Us!</a></Link>
+                                        <Link href="/contact" className="btn btn-black shape-square icon-arrow-right-white">Contact Us!</Link>
                                     </div>
                                 </div>
                                 <div className="col-lg-6 d-none d-lg-block">
@@ -33,7 +33,7 @@ function About2() {
                                                     <p className="text-body-text color-gray-500">Projects done</p>
                                                 </div>
                                                 <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-officer.svg" alt="Agon" /></span>
-                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">3</span></span></h4>
+                                                    <h4 className="text-heading-4"><span className="text-heading-3 color-green-900">+<span className="count">28</span></span></h4>
                                                     <p className="text-body-text color-gray-500">Offices</p>
                                                 </div>
                                                 <div className="item-icon none-bd"><span className="icon-left"><img src="/assets/imgs/page/about/2/icon-constant.svg" alt="Agon" /></span>
@@ -105,21 +105,7 @@ function About2() {
                         </div>
                     </div>
                 </section>
-                <section className="section-box">
-                    <div className="container mt-70">
-                        <div className="row">
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                            <div className="col-lg-10 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900 mb-10">Our Projects</h2>
-                                <p className="text-heading-6 color-gray-600 mt-20">From year to year we strive to invent the most innovative technology<br className="d-lg-block d-none" />that is used by both small enterprises and space enterprises.</p>
-                            </div>
-                            <div className="col-lg-1 col-sm-1 col-12" />
-                        </div>
-                    </div>
-                    <div className="container mt-70">
-                        <ProjectSlider />
-                    </div>
-                </section>
+                <ProjectSlider/>
                 <section className="section-box mt-100">
                     <div className="container">
                         <div className="row">
@@ -151,9 +137,9 @@ function About2() {
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-12 mt-50">
-                                        <Accordion />
+                                    <Accordion/>
                                         <div className="mt-100 text-center">
-                                            <Link href="/page-contact" legacyBehavior><a className="btn btn-green-900 icon-arrow-right-white text-heading-6 color-white">Contact Us</a></Link>
+                                            <Link href="/contact" className="btn btn-green-900 icon-arrow-right-white text-heading-6 color-white">Contact Us</Link>
                                         </div>
                                     </div>
                                 </div>

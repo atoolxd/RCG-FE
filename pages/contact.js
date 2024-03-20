@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import Layout from "../components/layout/Layout";
+import Layout from '../components/layout/Layout';
 
 const ContactForm = () => {
   const [name, setName] = useState('');
@@ -43,15 +43,6 @@ const ContactForm = () => {
       );
   };
 
-  useEffect(() => {
-    if (result && result.status === "sent") {
-      setName('');
-      setEmail('');
-      setPhone('');
-      setMessage('');
-    }
-  }, [result])
-
   return (
     <Layout>
       <section className="section-box">
@@ -65,110 +56,159 @@ const ContactForm = () => {
               <div className="col-lg-4 mb-40">
                 <h4 className="text-heading-6 color-gray-900 icon-home mb-10 mt-10">Rocketeers Consultation Group</h4>
                 <p className="text-body-text color-gray-600">Sydney, Australia</p>
-                <p className="text-body-text color-gray-600">(+61) 123123123</p>
+                <p className="text-body-text color-gray-600">(+61) 040513983</p>
                 <p className="text-body-text color-gray-600">support@rocketeers.com.au</p>
-  <div style={{
-    display: 'grid',
-    gap: '20px',
-    alignItems: 'center',
-    marginTop: '50px',
-    marginBottom: '0px'
-  }}>
-    
-    <form onSubmit={handleSubmit}>
-  <div className="form-group">
-  <input className='form-control form-group'
-    type="text"
-    name="name"
-    value={name}
-    onChange={(e) => setName(e.target.value)}
-    placeholder="Enter your name"
-    required
-    style={{
-      padding: '10px',
-      marginBottom: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-      width: '100%'
-    }}
-  />
-</div>
-<div className="form-group">
-  <input className='form-control form-group'
-    type="email"
-    name="email"
-    value={email}
-    onChange={(e) => setEmail(e.target.value)}
-    placeholder="Your mail"
-    required
-    style={{
-      padding: '10px',
-      marginBottom: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-      width: '100%'
-    }}
-  />
-</div>
-<div className="form-group">
-  <input className='form-control form-group'
-    type="tel"
-    name="phone"
-    value={phone}
-    onChange={(e) => setPhone(e.target.value)}
-    placeholder="Phone number"
-    pattern="[0-9]{10}"
-    required
-    style={{
-      padding: '10px',
-      marginBottom: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',width: '100%'
-    }}
-  />
-</div>
-<div className="form-group">
-  <input className='form-control form-group'
-    type="text"
-    placeholder="Company (optional)"
-    style={{
-      padding: '10px',
-      marginBottom: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-      width: '100%'
-    }}
-  />
-</div>
-<div className="form-group">
-  <textarea
-    name="message"
-    value={message} onChange={(e) => setMessage(e.target.value)}
-    placeholder="Tell us about yourself" required
-    style={{
-      padding: '10px',
-      marginBottom: '10px',
-      border: '1px solid #ccc',
-      borderRadius: '5px',
-      width: '100%',
-      height: '200px'
-    }}
-  ></textarea>
-</div>
-<div className="form-group">
-  <button className="btn btn-black shape-square icon-arrow-right-white" type="submit">Send Message</button><br className="d-lg-none d-block" /><span className="text-body-text-md color-gray-500 mb-20">By clicking contact us button, you agree our terms and policy,</span>
-</div>
-</form>
-    <ToastContainer />
-  </div>
-</div>
-</div>
-</div>
-</div>
+                <div style={{
+                  display: 'grid',
+                  gap: '20px',
+                  alignItems: 'center',
+                  marginTop: '50px',
+                  marginBottom: '0px'
+                }}>
+                  <form onSubmit={handleSubmit} style={{ width: '100%' }}>
+                    <div className="form-group">
+                      <input className='form-control form-group'
+                        type="text"
+                        name="name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        placeholder="Enter your name"
+                        required
+                        style={{
+                          padding: '10px',
+                          marginBottom: '10px',
+                          border: '1px solid #ccc',
+                          borderRadius: '5px',
+                          width: '100%'
+                        }}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <input className='form-control form-group'
+                        type="email"
+                        name="email"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        placeholder="Your mail"
+                        required
+                        style={{
+                          padding: '10px',
+                          marginBottom: '10px',
+                          border: '1px solid #ccc',
+                          borderRadius: '5px',
+                          width: '100%'
+                        }}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <input className='form-control form-group'
+                        type="tel"
+                        name="phone"
+                        value={phone}
+                        onChange={(e) => setPhone(e.target.value)}
+                        placeholder="Phone number"
+                        pattern="[0-9]{10}"
+                        required
+                        style={{
+                          padding: '10px',
+                          marginBottom: '10px',
+                          border: '1px solid #ccc',
+                          borderRadius: '5px', width: '100%'
+                        }}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <input className='form-control form-group'
+                        type="text"
+                        placeholder="Company (optional)"
+                        style={{
+                          padding: '10px',
+                          marginBottom: '10px',
+                          border: '1px solid #ccc',
+                          borderRadius: '5px',
+                          width: '100%'
+                        }}
+                      />
+                    </div>
+                    <div className="form-group">
+                      <textarea
+                        name="message"
+                        value={message} onChange={(e) => setMessage(e.target.value)}
+                        placeholder="Tell us about yourself" required
+                        style={{
+                          padding: '10px',
+                          marginBottom: '10px',
+                          border: '1px solid #ccc',
+                          borderRadius: '5px',
+                          width: '100%',
+                          height: '200px'
+                        }}
+                      ></textarea>
+                   </div>
+                    <div className="form-group">
+                      <button type="submit" className="btn btn-black btn-block shape-square" style={{
+                        padding: '10px 20px',
+                        fontSize: '18px',
+                      }}>
+                        Send Message
+                      </button>
+                      <br className="d-lg-none d-block" />
+                      <span className="text-body-text-md color-gray-500 mb-20">
+                        By clicking contact us button, you agree our terms and policy,
+                      </span>
+                    </div>
+                  </form>
+                  <ToastContainer />
+                </div>
+              </div>
+            </div>
+            <style jsx>{`
+        @media (min-width: 992px) {
+          .mb-40 {
+            width: 800px;
+          }
+        }
+
+        @media (max-width: 991px) {
+          .top-desktop {
+            display: none;
+          }
+          .mb-40 {
+            width: 100%;
+            display: block;
+          }
+          .form-control.form-group {
+            width: 100%;
+          }
+          .icon-arrow-right-white {
+            padding: 0 20px;
+          }
+
+          .btn-block {
+            width: 100%;
+            display: block;
+          }
+
+          .form-group {
+            text-align: center;
+          }
+
+          button[type="submit"] {
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            font-weight: bold;
+          }
+
+          textarea {
+            height: 150px;
+          }
+        }
+      `}</style>
+          </div>
+        </div>
       </section>
     </Layout>
   );
 };
-
 
 export default ContactForm;

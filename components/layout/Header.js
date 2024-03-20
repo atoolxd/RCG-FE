@@ -58,10 +58,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                         </div>
                     </div>
                     <div className="burger-icon burger-icon-white" onClick={handleOpen}>
-                                    <span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" />
-                                </div>
-                            
-             
+                <span className="burger-icon-top" />
+                <span className="burger-icon-mid" />
+                <span className="burger-icon-bottom" />
+            </div>
             </header>
 
         </>

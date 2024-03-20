@@ -1,10 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/jsx-key */
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 SwiperCore.use([Autoplay, Navigation]);
+
+/* eslint-disable @next/next/no-img-element */
 const OfferSlider = () => {
 
     const data = [
@@ -42,10 +42,18 @@ const OfferSlider = () => {
                             prevEl: ".swiper-button-prev-3",
                             nextEl: ".swiper-button-next-3"
                         }}
-                        className="swiper-wrapper pb-70 pt-5"
                         breakpoints={{
                             640: {
                               slidesPerView: 1,
+                              spaceBetween: 20,
+                            },
+                            768: {
+                              slidesPerView: 2,
+                              spaceBetween: 30,
+                            },
+                            1024: {
+                              slidesPerView: 2,
+                              spaceBetween: 40,
                             },
                           }}
                     >
@@ -53,8 +61,9 @@ const OfferSlider = () => {
                             <SwiperSlide key={i}>
                                 <div className="swiper-slide">
                                     <div className="card-grid-style-2 hover-up">
-                                        <div className="grid-2-img">
-                                            <img src={`assets/imgs/page/homepage1/${item.img}`} alt="" />
+<div className="grid-2-img">
+                                            {/* eslint-disable-next-line @next/next/no-img-element */}
+                                            <img src={`/assets/imgs/page/homepage1/${item.img}`} alt={item.title} />
                                         </div>
                                         <h3 className="text-heading-5 mt-20">{item.title}</h3>
                                         <p className="text-body-text color-gray-600 mt-20">{item.text}</p>
@@ -70,4 +79,3 @@ const OfferSlider = () => {
 };
 
 export default OfferSlider;
-

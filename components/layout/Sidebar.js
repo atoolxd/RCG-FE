@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { useState } from "react";
 import PerfectScrollbar from 'react-perfect-scrollbar';
@@ -16,6 +15,10 @@ const Sidebar = ({ openClass, setOpen }) => {
         if (key === "0") {
             setOpen(false);
         }
+    };
+
+    const handleOpen = () => {
+        setOpen(!openClass);
     };
 
     return (
@@ -38,21 +41,20 @@ const Sidebar = ({ openClass, setOpen }) => {
                                                 <Link href="/" legacyBehavior><a className="active">Home</a></Link>
                                             </li>
                                             <li className={activeKey === "2" ? "active" : ""}>
-                                                <span onClick={() => toggleMenu("2")} className=""></span><Link href="/page-about-2" legacyBehavior><a>About Us</a></Link>
+                                                <Link href="/page-about-2" legacyBehavior><a>About Us</a></Link>
                                             </li>
                                             <li className={activeKey === "4" ? "active" : ""}>
                                                 <Link href="/page-service-1" legacyBehavior><a>Services</a></Link>
                                                 {/* Add sub-menu logic if needed */}
                                             </li>
                                             <li className={activeKey === "5" ? "active" : ""}>
-                                                <span onClick={() => toggleMenu("5")}></span>
                                                 <Link href="/contact" legacyBehavior><a>Contact Us</a></Link>
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div className="site-copyright color-gray-400">
-                                    Copyright {new Date().getFullYear()} © RCG.<br />Designed
+                                    Copyright {new Date().getFullYear()} © RCG.<br/>Designed
                                     by RCG
                                 </div>
                             </div>

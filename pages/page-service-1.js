@@ -111,7 +111,7 @@ function Service() {
                                     What services do we offer<br className="d-lg-block d-none" />for our clients
                                 </h2>
                                 <p className="text-body-lead-large color-gray-600 mt-20">
-                                    At RCG, we offer a comprehensive suite of services tailored to meet your digital needs
+                                    At Rocketeers, we offer a comprehensive suite of services tailored to meet your digital needs
                                 </p>
                             </div>
                             <div className="col-lg-2 col-sm-1 col-12" />
@@ -159,12 +159,12 @@ function Service() {
                                                     Crafting responsive and dynamic websites.
                                                 </h3>
                                                 <p className="text-body-excerpt mt-30">
-                                                    Experience the Artistry of Digital Craftsmanship: Our Web Development service at RCG transforms ideas into visually stunning and functionally robust websites.
+                                                    Experience the Artistry of Digital Craftsmanship: Our Web Development service at Rocketeers transforms ideas into visually stunning and functionally robust websites.
                                                     We blend creativity with cutting-edge technology, ensuring your online presence not only captivates but also performs seamlessly across devices.
                                                     Elevate your brand with a website that stands out in the digital realm, reflecting your uniqueness and driving meaningful user engagement.
                                                 </p>
                                                 <div className="mt-40">
-                                                    <Link href="/page-contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
+                                                    <Link href="/contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -185,7 +185,7 @@ function Service() {
                                                     Building intuitive and feature-rich mobile applications.
                                                 </h3>
                                                 <p className="text-body-excerpt mt-30">
-                                                    Our App Development service at RCG is dedicated to bringing your ideas to life in the palm of your users hands.
+                                                    Our App Development service at Rocketeers is dedicated to bringing your ideas to life in the palm of your users hands.
                                                     We specialize in crafting intuitive and feature-rich mobile applications that elevate user experiences.
                                                     We ensure your app not only meets but exceeds expectations, leaving a lasting impact in the digital landscape.
                                                 </p>
@@ -211,7 +211,7 @@ function Service() {
                                                     Boost brand awareness, engagement, and conversion.
                                                 </h3>
                                                 <p className="text-body-excerpt mt-30">
-                                                    Ignite Your Digital Presence: With our Digital Marketing services at RCG, we propel your brand into the spotlight.
+                                                    Ignite Your Digital Presence: With our Digital Marketing services at Rocketeers, we propel your brand into the spotlight.
                                                     From strategic planning to dynamic execution, we curate impactful campaigns across various channels, driving engagement, fostering connections, and ultimately amplifying your online reach.
 
                                                 </p>
@@ -238,7 +238,7 @@ function Service() {
                                                     You
                                                 </h3>
                                                 <p className="text-body-excerpt mt-30">
-                                                    Unleashing the Power of AI: Elevate your business with our cutting-edge AI services at RCG.
+                                                    Unleashing the Power of AI: Elevate your business with our cutting-edge AI services at Rocketeers.
                                                     From intelligent automation to data-driven insights, we integrate artificial intelligence seamlessly, empowering your operations and strategies for a future-ready success story.
                                                 </p>
                                                 <div className="mt-40">
@@ -263,11 +263,11 @@ function Service() {
                                                     Consulting
                                                 </h3>
                                                 <p className="text-body-excerpt mt-30">
-                                                    Navigating Possibilities, Guiding Success: Our IT Consultation service at RCG offers strategic insights and tailored solutions to steer your business through the complexities of technology.
+                                                    Navigating Possibilities, Guiding Success: Our IT Consultation service at Rocketeers offers strategic insights and tailored solutions to steer your business through the complexities of technology.
                                                     With expert guidance, we align your IT strategy with your business goals, ensuring a roadmap that leads to efficiency, innovation, and sustainable growth.
                                                 </p>
                                                 <div className="mt-40">
-                                                    <Link href="/page-contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
+                                                    <Link href="/contact" legacyBehavior><a className="btn btn-default btn-white icon-arrow-right">Learn more</a></Link>
                                                 </div>
                                             </div>
                                         </div>
