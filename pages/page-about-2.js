@@ -1,13 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
-import Accordion from "../components/elements/Accordion";
 import Layout from "../components/layout/Layout";
-import ProjectSlider from "../components/slider/Projects";
+import dynamic from "next/dynamic";
 
+const Accordion = dynamic(() => import("../components/elements/Accordion"));
+const ProjectSlider = dynamic(() => import("../components/slider/Projects"));
 
 function About2() {
     return (
-        <>
             <Layout>
                 <section className="section-box">
                     <div className="banner-hero bg-about-2">
@@ -101,7 +101,6 @@ function About2() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className="col-lg-1 col-sm-12 col-12" />
                         </div>
                     </div>
                 </section>
@@ -139,7 +138,7 @@ function About2() {
                                     <div className="col-lg-12 mt-50">
                                     <Accordion/>
                                         <div className="mt-100 text-center">
-                                            <Link href="/contact" className="btn btn-green-900 icon-arrow-right-white text-heading-6 color-white">Contact Us</Link>
+                                            <Link href="/contact" className="btn btn-black shape-square icon-arrow-right-white">Contact Us</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -149,8 +148,6 @@ function About2() {
                     </div>
                 </section>
             </Layout>
-
-        </>
     )
 }
 

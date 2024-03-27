@@ -5,7 +5,6 @@ import Layout from "../components/layout/Layout";
 
 function Error() {
     return (
-        <>
             <Layout>
                 <section className="section-box mt-100">
                     <div className="container">
@@ -27,10 +26,7 @@ function Error() {
                         </div>
                     </div>
                 </section>
-
             </Layout>
-
-        </>
     )
 }
 

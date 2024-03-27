@@ -40,12 +40,12 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             
                                         </li>
                                         <li>
+                                        <Link href="/page-pricing-1" legacyBehavior><a className="">Products</a></Link>
+                                        </li>
+                                        <li>
                                             <Link href="/contact">Contact</Link>
                                             
                                         </li>
-                                        {/* <li>
-                                        <Link href="/page-career" legacyBehavior><a className="">Career</a></Link>
-                                        </li> */}
                                     </ul>
                                 </nav>
                             </div>

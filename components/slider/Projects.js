@@ -1,22 +1,22 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, Navigation } from "swiper";
-import Image from "next/image";
 
 SwiperCore.use([Autoplay, Navigation]);
 
 const ProjectSlider = () => {
     const data = [
         {
-            img: "/assets/imgs/page/blog/1/fanbucket.png",
-            avatar: "/assets/imgs/page/blog/2/user-3.png",
-            title: "Liquid Wave",
+            img: "/assets/imgs/page/service/fanbucket.png",
+            avatar: "/assets/imgs/page/service/user-3.png",
+            title: "FB",
             author: "Atul",
         },
         {
-            img: "/assets/imgs/page/blog/1/fanbucket.png",
-            avatar: "/assets/imgs/page/blog/2/user-3.png",
-            title: "Liquid Wave",
+            img: "/assets/imgs/page/service/prs.png",
+            avatar: "/assets/imgs/page/service/user-3.png",
+            title: "PRS",
             author: "Atul",
         },
     ];
@@ -54,15 +54,13 @@ const ProjectSlider = () => {
                                         <div className="row">
                                             <div className="col-xl-6 col-lg-12">
                                                 <div className="img-news">
-                                                    <Link href="/blog-single" passHref legacyBehavior>
-                                                        <Image
+                                                    <Link href="/blog-single" passHref>
+                                                        <img
                                                             src={item.img}
-                                                            alt="FB"
-                                                            width={300}
-                                                            height={200}
-                                                            layout="responsive"
-                                                            objectFit="cover"
-                                                            style={{ margin: '0 20px' }}
+                                                            alt={item.title}
+                                                            width={700}
+                                                            height={900}
+                                                            style={{ margin: '0 20px', objectFit: 'cover' }}
                                                         />
                                                     </Link>
                                                 </div>
@@ -78,9 +76,9 @@ const ProjectSlider = () => {
                                                     </p>
                                                     <div className="blog-img-user">
                                                         <div className="img-user img-user-round">
-                                                            <Image
+                                                            <img
                                                                 src={item.avatar}
-                                                                alt="RCG"
+                                                                alt={item.author}
                                                                 width={300}
                                                                 height={200}
                                                             />

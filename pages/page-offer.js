@@ -8,7 +8,6 @@ import TestimonialSlider from "../components/slider/Testimonial";
 function Offer() {
 
     return (
-        <>
             <Layout>
                 <section className="section-box">
                     <div className="banner-hero banner-1">
@@ -75,8 +74,6 @@ function Offer() {
                     </div>
                 </section> */}
             </Layout>
-
-        </>
     )
 }
 

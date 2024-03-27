@@ -9,11 +9,11 @@ const ContactForm = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
-  const [result, setResult] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Validate form fields
     if (!name || !email || !phone || !message) {
       toast.error('Please fill out all fields');
       return;
@@ -24,24 +24,20 @@ const ContactForm = () => {
       return;
     }
 
-    emailjs
-      .sendForm(
-        'service_qucehv5',
-        'template_0owpwf9',
-        e.target,
-        'Jax5orMYzJxd24nTs'
-      )
-      .then(
-        (result) => {
-          setResult(result);
+    emailjs.sendForm('service_qucehv5', 'template_0owpwf9', e.target, 'Jax5orMYzJxd24nTs')
+        .then((result) => {
           toast.success('Message sent successfully');
-        },
-        (error) => {
-          setResult(error);
+        }, (error) => {
           toast.error('Error sending message');
-        }
-      );
-  };
+        });
+  
+      // Clear form fields after submission
+      setName('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
+    };
+  
 
   return (
     <Layout>
