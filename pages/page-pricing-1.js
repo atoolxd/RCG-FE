@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import PriceTable from "../components/elements/PriceTable";
@@ -14,11 +15,10 @@ function Pricing1() {
                                 <div className="col-lg-7">
                                     <h3>
                                         <span className="color-green-900"> Rocketeers </span>
-                                        <br></br>Your partner in web, app development, and consulting. Lets build your digital future.
+                                        <br></br>Your partner in Seamless Hosting Solutions for Your Cutting-Edge Software Products
                                     </h3>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
-                                        With our best in class products, make your system efficient.
-                                         Our team of experts will guide you through the process to ensure a seamless transition.
+                                    Optimize Your System Efficiency with Our Premium Hosting Solutions. Let Our Expert Team Lead You Through a Seamless Migration Process
                                     </p>
                                     <div className="mt-40">
                                         <Link href="/contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">Contact Us!</a></Link>
@@ -44,14 +44,14 @@ function Pricing1() {
                         <div className="row">
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <h2 className="text-heading-1 color-gray-900 mb-30">How It Works</h2>
-                                <p className="text-body-excerpt color-gray-600">Ac sapien purus tristique neque nibh vitae faucibus non phasellus vulputate nulla in eget amet, risus</p>
+                                <p className="text-body-excerpt color-gray-600">Our Hosting Process at a Glance</p>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 mt-50">
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
                                         <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-acquis.svg" alt="Agon" /></div>
-                                        <h4 className="text-heading-4">1. Acquisition</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <h4 className="text-heading-4">1. Assessment and Planning:</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">We analyze your infrastructure and collaborate to tailor a hosting plan to your needs, ensuring a smooth transition.</p>
                                     </div>
                                 </div>
                             </div>
@@ -59,8 +59,8 @@ function Pricing1() {
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
                                         <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-active.svg" alt="Agon" /></div>
-                                        <h4 className="text-heading-4">2. Activation</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <h4 className="text-heading-4">2. Migration and Setup:</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">Our experts migrate your data seamlessly, minimizing downtime, and ensure correct setup in our hosting environment.</p>
                                     </div>
                                 </div>
                             </div>
@@ -68,8 +68,8 @@ function Pricing1() {
                                 <div className="list-icons">
                                     <div className="item-icon pl-0">
                                         <div className="mb-15"><img src="/assets/imgs/page/homepage2/icon-retent.svg" alt="Agon" /></div>
-                                        <h4 className="text-heading-4">3. Retention</h4>
-                                        <p className="text-body-text color-gray-600 mt-15">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit laborum — semper quis lectus nulla.</p>
+                                        <h4 className="text-heading-4">3. Ongoing Support and Optimization:</h4>
+                                        <p className="text-body-text color-gray-600 mt-15">We provide 24/7 support, monitor your system for performance, and offer regular optimization to keep your operations seamless.</p>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +92,7 @@ function Pricing1() {
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
                                             <h5 className="text-heading-5 color-gray-900">Satisfied client testimonial</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Even factoring differences in body weight between children and adults into account, it would still not reach an intoxicating level in children.</p>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Switching to your hosting solution was a game-changer for our business. The migration process was effortless, and the ongoing support has been exceptional. Highly recommended!</p>
                                             <div className="box-img-user">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-1.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Jane Cooper</h4>
@@ -103,7 +103,7 @@ function Pricing1() {
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
                                             <h5 className="text-heading-5 color-gray-900">98% of residents recommend us</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">So yes, the alcohol (ethanol) in hand sanitizers can be absorbed through the skin, but no, it would not cause intoxication.</p>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Impressed by the seamless migration process and the level of personalized support provided. Our website's performance has never been better since switching to your hosting services.</p>
                                             <div className="box-img-user">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-2.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Wade Warren</h4>
@@ -114,7 +114,7 @@ function Pricing1() {
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
                                             <h5 className="text-heading-5 color-gray-900">Our success stories</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">“It has been an absolute pleasure dealing with Scan during the lockdown. Our church began to livestream our services, and Scan had a great selection of hardware....”</p>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Your hosting solution exceeded our expectations. The setup was quick, and the support team was responsive and knowledgeable. Our website's uptime and speed have significantly improved.</p>
                                             <div className="box-img-user">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-3.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Leslie Alexander</h4>
@@ -125,7 +125,7 @@ function Pricing1() {
                                     <div className="col-lg-6 col-md-12 col-sm-12">
                                         <div className="card-grid-style-2 hover-up mb-20">
                                             <h5 className="text-heading-5 color-gray-900">This is simply unbelievable</h5>
-                                            <p className="text-body-text color-gray-600 mt-20 text-comment">“I was also lucky enough to read @Coding_Career early and I was thoroughly blown away! It’s the book I wish I had when I started my dev career.”</p>
+                                            <p className="text-body-text color-gray-600 mt-20 text-comment">Choosing your hosting service was one of the best decisions we made for our business. The transition was smooth, and the ongoing support has been top-notch. Our team can focus on our core tasks without worrying about server issues.</p>
                                             <div className="box-img-user">
                                                 <div className="img-user"><img src="/assets/imgs/page/homepage2/user-4.png" alt="Agon" /></div>
                                                 <h4 className="text-body-lead color-gray-900 mb-5">Jenny Wilson</h4>
@@ -156,65 +156,44 @@ function Pricing1() {
                             <div className="col-lg-12 col-sm-12 col-12">
                                 <ul className="list-icons-2">
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">Can I see the demo before purchasing?</h3>
-                                        <p className="text-body-text color-gray-500">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae</p>
+                                        <h3 className="text-heading-5 mb-10">What is web hosting, and why do I need it?</h3>
+                                        <p className="text-body-text color-gray-500">Web hosting is a service that allows individuals and organizations to make their websites accessible via the World Wide Web. You need hosting to store your website's files and data and make it accessible to internet users.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">Can I use your system on different devices?</h3>
-                                        <p className="text-body-text color-gray-500">Etiam amet mauris suscipit in odio integer congue metus vitae arcu mollis blandit ultrice ligula egestas and magna suscipit lectus magna suscipit luctus blandit vitae</p>
+                                        <h3 className="text-heading-5 mb-10">What makes your hosting solution different from others?</h3>
+                                        <p className="text-body-text color-gray-500">Our hosting solution offers high-performance servers, reliable uptime, scalable resources, and exceptional customer support. We prioritize security, speed, and flexibility to ensure that your website or application runs smoothly.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">Can I import my sitemap to your system?</h3>
-                                        <p className="text-body-text color-gray-500">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium</p>
+                                        <h3 className="text-heading-5 mb-10">How does the migration process work?</h3>
+                                        <p className="text-body-text color-gray-500">Our team will assist you throughout the migration process, ensuring a seamless transition from your current hosting provider to ours. We handle the migration of your website's files, databases, and configurations, minimizing downtime and ensuring no data loss.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">Can I cancel my subscription at any time?</h3>
-                                        <p className="text-body-text color-gray-500">An enim nullam tempor sapien gravida a donec ipsum enim an porta justo integer at velna vitae auctor integer congue undo magna at pretium purus pretium</p>
+                                        <h3 className="text-heading-5 mb-10">What level of support do you offer?</h3>
+                                        <p className="text-body-text color-gray-500">We provide 24/7 technical support via various channels, including email, live chat, and phone. Our support team comprises knowledgeable experts who can assist you with any hosting-related issues or inquiries promptly.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">How can I switch my subscription between essential, and premium plan</h3>
-                                        <p className="text-body-text color-gray-500">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque.</p>
+                                        <h3 className="text-heading-5 mb-10">Is my data secure with your hosting service?</h3>
+                                        <p className="text-body-text color-gray-500">Yes, we prioritize the security of your data and employ robust security measures to protect it from unauthorized access, malware, and other threats. Our hosting environment is regularly monitored and updated to ensure maximum security.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">Is there an additional discount when paid annually?</h3>
-                                        <p className="text-body-text color-gray-500">Cubilia laoreet augue egestas and luctus donec curabite diam vitae dapibus libero and quisque gravida donec and neque. Blandit justo aliquam molestie nunc sapien</p>
+                                        <h3 className="text-heading-5 mb-10">Do you offer backups for my website's data?</h3>
+                                        <p className="text-body-text color-gray-500">Yes, we provide regular backups of your website's data to ensure that your information is safe and accessible in case of any unforeseen incidents. You can rest assured knowing that your data is securely backed up and can be restored when needed.</p>
                                     </li>
                                     <li>
-                                        <h3 className="text-heading-5 mb-10">I have an issue with my account</h3>
-                                        <ul className="text-body-text">
-                                            <li>Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula</li>
-                                            <li>An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna</li>
-                                        </ul>
+                                        <h3 className="text-heading-5 mb-10">Can I upgrade or downgrade my hosting plan as my needs change?</h3>
+                                        <p className="text-body-text color-gray-500">Yes, you can easily upgrade or downgrade your hosting plan as your requirements evolve. Our flexible hosting solutions allow you to scale resources up or down based on your website's traffic and performance needs.</p>
                                     </li>
                                     <li>
                                         <h3 className="text-heading-5 mb-10">What happens if I don’t renew my license after one year?</h3>
-                                        <ul className="text-body-text">
-                                            <li>Etiam amet mauris suscipit sit amet in odio. Integer congue leo metus. Vitae arcu mollis blandit ultrice ligula</li>
-                                            <li>An enim nullam tempor sapien gravida donec congue leo metus. Vitae arcu mollis blandit integer at velna</li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Do you have a free trial?</h3>
-                                        <p className="text-body-text color-gray-500" />
-                                        <ul className="text-body-text">
-                                            <li>Fringilla risus, luctus mauris orci auctor purus</li>
-                                            <li>Quaerat sodales sapien euismod blandit purus and ipsum primis in cubilia laoreet augue luctus</li>
-                                        </ul>
-                                        <p />
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What kind of payment methods do you provide?</h3>
-                                        <p className="text-body-text color-gray-500" />
-                                        <ul className="text-body-text">
-                                            <li>Fringilla risus, luctus mauris orci auctor purus</li>
-                                            <li>Quaerat sodales sapien euismoda laoreet augue luctus</li>
-                                        </ul>
-                                        <p />
+                                        <p className="text-body-text color-gray-500">We accept various payment methods, including credit/debit cards, PayPal, and bank transfers, to accommodate our customers' preferences. Our billing system is transparent and easy to manage, allowing you to track your hosting expenses efficiently.</p>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                    <div className="mt-100 text-center">
+                                            <Link href="/contact" className="btn btn-black shape-square icon-arrow-right-white">Contact Us</Link>
+                                        </div>
                 </section>
             </Layout>
     )

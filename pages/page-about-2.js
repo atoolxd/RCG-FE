@@ -14,7 +14,7 @@ function About2() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-6 box-banner-left"><span className="tag-1 bg-6 color-green-900">What We Do, What You Get</span>
-                                    <h1 className="text-display-3 mt-30">Get Your Dream Business Online Today</h1>
+                                    <h3 className="text-display-3 mt-30">Get Your Dream Business Online Today</h3>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">Whether you are an established business or a startup, ensuring you have a well thought out development strategy, digital marketing plan and the resources 
                                     required in place, is vital. We do this through collaboration between our strategists, designers and technologists.
                                     <br className="d-lg-block d-none" />For years, Rocketeers partnered with businesses across every major industry to make amazing products and connect the dots between people, products, and business opportunities. 

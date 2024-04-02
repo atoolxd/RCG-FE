@@ -14,10 +14,10 @@ function Offer() {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-7">
-                                    <h1 className="text-display-2">
+                                    <h3 className="text-display-2">
                                         GET A FREE WEBSITE FROM
                                         <span className="color-green-900"> RCG </span>
-                                    </h1>
+                                    </h3>
                                     <p className="text-body-lead-large color-gray-500 mt-40 pr-40">
                                         Get a free WordPress website from us. Apply Today to be the lucky one to get this deal.
                                     </p>
