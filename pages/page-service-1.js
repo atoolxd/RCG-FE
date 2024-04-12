@@ -67,7 +67,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-support.svg" alt="on" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/engineer.png" alt="on" /></span>
                                     <h4 className="text-heading-6">Support Engineer</h4>
                                     <p className="text-body-text color-gray-600 mt-15">We have the best support engineers in our hands to overcome technical difficulties.</p>
                                 </div>
@@ -76,7 +76,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-web.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/application.png" alt="" /></span>
                                     <h4 className="text-heading-6">Web Developer</h4>
                                     <p className="text-body-text color-gray-600 mt-15">We have the best developers to work on your dream project.</p>
                                 </div>
@@ -85,7 +85,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-business.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/data-research.png" alt="" /></span>
                                     <h4 className="text-heading-6">Business Analyst</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our business analysts have the most productive methods to work on your business SEO solutions.</p>
                                 </div>
@@ -94,7 +94,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-ux.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/ux-design.png" alt="" /></span>
                                     <h4 className="text-heading-6">UI/UX Designer</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our UI/UX designers craft seamless user experiences that delight and engage.</p>
                                 </div>
@@ -103,7 +103,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-marketing.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/promotion.png" alt="" /></span>
                                     <h4 className="text-heading-6">Digital Marketer</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our digital marketers drive brand awareness and lead generation with targeted strategies.</p>
                                 </div>
@@ -112,7 +112,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-security.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/cyber-security.png" alt="" /></span>
                                     <h4 className="text-heading-6">Cybersecurity Expert</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our cybersecurity experts ensure your digital assets are protected from threats and vulnerabilities.</p>
                                 </div>
@@ -121,7 +121,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-analytics.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/analyst.png" alt="" /></span>
                                     <h4 className="text-heading-6">Data Analyst</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our data analysts provide actionable insights to drive informed decision-making.</p>
                                 </div>
@@ -130,7 +130,7 @@ function Service() {
                         <div className="col-lg-3 col-md-6 col-sm-6 col-12">
                             <div className="list-icons">
                                 <div className="item-icon none-bd">
-                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/icon-strategy.svg" alt="" /></span>
+                                    <span className="icon-left"><img src="/assets/imgs/page/services/1/operations.png" alt="" /></span>
                                     <h4 className="text-heading-6">Strategy Consultant</h4>
                                     <p className="text-body-text color-gray-500 mt-15">Our strategy consultants help define and execute your business objectives with precision.</p>
                                 </div>

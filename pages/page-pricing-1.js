@@ -3,8 +3,9 @@
 import Link from "next/link";
 import PriceTable from "../components/elements/PriceTable";
 import Layout from "../components/layout/Layout";
+import dynamic from "next/dynamic";
 
-
+const Accordion = dynamic(() => import("../components/elements/Accordion"));
 function Pricing1() {
     return (
             <Layout>
@@ -139,62 +140,47 @@ function Pricing1() {
                     </div>
                 </section>
                 <section className="section-box mt-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-2 col-sm-1 col-12" />
-                            <div className="col-lg-8 col-sm-10 col-12 text-center">
-                                <h2 className="text-heading-1 color-gray-900">Frequently Asked Questions</h2>
-                                <p className="text-body-lead-large color-gray-600 mt-20">Aliquam a augue suscipit, luctus neque purus ipsum<br className="d-lg-block d-none" />neque dolor primis a libero tempus, blandit and<br className="d-lg-block d-none" />cursus varius and magnis sapien</p>
-                            </div>
-                            <div className="col-lg-2 col-sm-1 col-12" />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-2 col-sm-1 col-12" />
+                        <div className="col-lg-8 col-sm-10 col-12 text-center">
+                            <h2 className="text-heading-1 color-gray-900">Frequently asked questions</h2>
+                            <p className="text-body-lead-large color-gray-600 mt-20">Feeling inquisitive? Have a read through some of our FAQs or contact our supporters for help</p>
                         </div>
+                        <div className="col-lg-2 col-sm-1 col-12" />
                     </div>
-                </section>
-                <section className="section-box mt-100">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12 col-sm-12 col-12">
-                                <ul className="list-icons-2">
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What is web hosting, and why do I need it?</h3>
-                                        <p className="text-body-text color-gray-500">Web hosting is a service that allows individuals and organizations to make their websites accessible via the World Wide Web. You need hosting to store your website's files and data and make it accessible to internet users.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What makes your hosting solution different from others?</h3>
-                                        <p className="text-body-text color-gray-500">Our hosting solution offers high-performance servers, reliable uptime, scalable resources, and exceptional customer support. We prioritize security, speed, and flexibility to ensure that your website or application runs smoothly.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">How does the migration process work?</h3>
-                                        <p className="text-body-text color-gray-500">Our team will assist you throughout the migration process, ensuring a seamless transition from your current hosting provider to ours. We handle the migration of your website's files, databases, and configurations, minimizing downtime and ensuring no data loss.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What level of support do you offer?</h3>
-                                        <p className="text-body-text color-gray-500">We provide 24/7 technical support via various channels, including email, live chat, and phone. Our support team comprises knowledgeable experts who can assist you with any hosting-related issues or inquiries promptly.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Is my data secure with your hosting service?</h3>
-                                        <p className="text-body-text color-gray-500">Yes, we prioritize the security of your data and employ robust security measures to protect it from unauthorized access, malware, and other threats. Our hosting environment is regularly monitored and updated to ensure maximum security.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Do you offer backups for my website's data?</h3>
-                                        <p className="text-body-text color-gray-500">Yes, we provide regular backups of your website's data to ensure that your information is safe and accessible in case of any unforeseen incidents. You can rest assured knowing that your data is securely backed up and can be restored when needed.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">Can I upgrade or downgrade my hosting plan as my needs change?</h3>
-                                        <p className="text-body-text color-gray-500">Yes, you can easily upgrade or downgrade your hosting plan as your requirements evolve. Our flexible hosting solutions allow you to scale resources up or down based on your website's traffic and performance needs.</p>
-                                    </li>
-                                    <li>
-                                        <h3 className="text-heading-5 mb-10">What happens if I don’t renew my license after one year?</h3>
-                                        <p className="text-body-text color-gray-500">We accept various payment methods, including credit/debit cards, PayPal, and bank transfers, to accommodate our customers' preferences. Our billing system is transparent and easy to manage, allowing you to track your hosting expenses efficiently.</p>
-                                    </li>
-                                </ul>
+                </div>
+                <div className="container mt-70">
+                    <div className="row">
+                        <div className="col-lg-1" />
+                        <div className="col-lg-10">
+                            <div className="row">
+                                <div className="col-lg-4 mb-50">
+                                    <h4 className="text-heading-6 icon-leaf">People first</h4>
+                                    <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                </div>
+                                <div className="col-lg-4 mb-50">
+                                    <h4 className="text-heading-6 icon-leaf">Agile approach</h4>
+                                    <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                </div>
+                                <div className="col-lg-4 mb-50">
+                                    <h4 className="text-heading-6 icon-leaf">New mindset</h4>
+                                    <p className="text-body-excerpt color-gray-600 mt-15">The latest design trends meet hand-crafted templates.</p>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-lg-12 mt-50">
+                                    <Accordion />
+                                    <div className="mt-100 text-center">
+                                        <Link href="/contact" className="btn btn-black shape-square icon-arrow-right-white">Contact Us</Link>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <div className="col-lg-1" />
                     </div>
-                    <div className="mt-100 text-center">
-                                            <Link href="/contact" className="btn btn-black shape-square icon-arrow-right-white">Contact Us</Link>
-                                        </div>
-                </section>
+                </div>
+            </section>
             </Layout>
     )
 }

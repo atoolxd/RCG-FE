@@ -55,7 +55,7 @@ const ProjectSlider = () => {
                                         <div className="row">
                                             <div className="col-xl-6 col-lg-12">
                                                 <div className="img-news">
-                                                    <Link href="/blog-single" passHref legacyBehavior>
+                                                    <Link href="/page-about-2" passHref legacyBehavior>
                                                         <img
                                                             src={item.img}
                                                             alt={item.title}
@@ -69,7 +69,7 @@ const ProjectSlider = () => {
                                             <div className="col-xl-6 col-lg-12">
                                                 <div className="right-news card-grid-style-4 mb-0">
                                                     <span className="tag-dot">Past Projects</span>
-                                                    <Link href="/blog-single" passHref legacyBehavior>
+                                                    <Link href="/page-about-2" passHref legacyBehavior>
                                                         <a className="text-heading-4">Hear what our clients say</a>
                                                     </Link>
                                                     <p className="text-body-text color-gray-500 text-desc-fix-h">

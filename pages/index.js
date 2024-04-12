@@ -93,29 +93,31 @@ function Home() {
                     </div>
                 </div>
             </section>
-
-
-            <section className="section-box mt-100">
+            <section className="section-box mt-100 text-center d-flex justify-content-center align-items-center">
                 <div className="container mt-20">
                     <div className="row justify-content-center align-items-center">
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-center">
-                            <div className="list-icons text-center">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12">
+                            <div className="list-icons">
                                 <div className="item-icon none-bd">
                                     <h4 className="text-heading-6">Learn More!</h4>
-                                    <p className="text-body-text color-gray-600 mt-15 text-center">We have the best team to work on your dream projects.</p>
+                                    <p className="text-body-text color-gray-600 mt-15">We have the best team to work on your dream projects.</p>
                                     <div className="mt-40">
-                                        <Link href="/page-about-2" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">LEARN MORE!</a></Link>
+                                        <Link href="/page-about-2" legacyBehavior>
+                                            <a className="btn btn-black shape-square icon-arrow-right-white">LEARN MORE!</a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 d-flex justify-content-center mt-5 mt-sm-0">
-                            <div className="list-icons text-center">
+                        <div className="col-lg-3 col-md-6 col-sm-6 col-12 mt-5 mt-sm-0">
+                            <div className="list-icons">
                                 <div className="item-icon none-bd">
                                     <h4 className="text-heading-6">Contact US!</h4>
-                                    <p className="text-body-text color-gray-600 mt-15 text-center">Contact us today to get started!!</p>
+                                    <p className="text-body-text color-gray-600 mt-15">Contact us today to get started!!</p>
                                     <div className="mt-40">
-                                        <Link href="/contact" legacyBehavior><a className="btn btn-black shape-square icon-arrow-right-white">CONTACT US!</a></Link>
+                                        <Link href="/contact" legacyBehavior>
+                                            <a className="btn btn-black shape-square icon-arrow-right-white">CONTACT US!</a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -123,6 +125,7 @@ function Home() {
                     </div>
                 </div>
             </section>
+
             <section className="section-box">
                 <div className="container mt-120">
                     <div className="bg-2 bdrd-58 pattern-white pb-60">
